@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.student_details{
+    padding:20px 0;
+    text-align: center;
+}
+#degree{
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    border-radius:5px;
+    border:1px solid #294963;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+#send{
+    width: 8%;
+    background-color: #294963;
+    color:#fff;
+    padding:5px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:18px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+@media  screen and (max-width:676px) {
+    #send{
+        width:24%;
+    }
+    
+}
